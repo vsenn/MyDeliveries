@@ -134,10 +134,10 @@
             </objects>
             <point key="canvasLocation" x="1334" y="150"/>
         </scene>
-        <!--TrackingMapViewController-->
+        <!--Tracking Map View-->
         <scene sceneID="INs-a4-pF3">
             <objects>
-                <viewController title="TrackingMapViewController" id="I34-d0-rhC" customClass="TrackingMapViewController" customModule="MyDeliveries" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Tracking Map View" id="I34-d0-rhC" customClass="TrackingMapViewController" customModule="MyDeliveries" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="psb-Wf-4hq"/>
                         <viewControllerLayoutGuide type="bottom" id="HD5-1D-tCB"/>
@@ -147,7 +147,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="yKW-BW-eX3">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                             </mapView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -200,6 +200,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="tt5-tn-ZZX"/>
+        <segue reference="78d-51-6c4"/>
     </inferredMetricsTieBreakers>
 </document>
